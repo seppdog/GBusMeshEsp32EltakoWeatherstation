@@ -1,0 +1,83 @@
+#######################################
+# Syntax Coloring Map For ClickButton
+# & HBWired
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ClickButton	KEYWORD1
+
+#HBWired
+HBWDevice	KEYWORD1
+HBWChannel	KEYWORD1
+HBWLinkSender	KEYWORD1
+HBWLinkReceiver	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Update	KEYWORD2
+
+#HBWired
+hbwdebughex	KEYWORD2
+hbwdebug	KEYWORD2
+set	KEYWORD2
+get	KEYWORD2
+setConfigPins	KEYWORD2
+sendInfoMessage	KEYWORD2
+sendKeyEvent	KEYWORD2
+receiveKeyEvent	KEYWORD2
+processEvent	KEYWORD2
+afterReadConfig	KEYWORD2
+setStatusLEDPins	KEYWORD2
+getLoggingTime	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+CLICKBTN_PULLUP	LITERAL1
+
+#HBWired
+JT_ONDELAY	LITERAL1
+JT_RAMP_ON	LITERAL1
+JT_ON	LITERAL1
+JT_OFFDELAY	LITERAL1
+JT_RAMP_OFF	LITERAL1
+JT_OFF	LITERAL1
+JT_NO_JUMP_IGNORE_COMMAND	LITERAL1
+ON_TIME_ABSOLUTE	LITERAL1
+OFF_TIME_ABSOLUTE	LITERAL1
+ON_TIME_MINIMAL	LITERAL1
+OFF_TIME_MINIMAL	LITERAL1
+UNKNOWN_STATE	LITERAL1
+FORCE_STATE_CHANGE	LITERAL1
+
+#######################################
+# Built in variables (LITERAL2)
+#######################################
+
+clicks	LITERAL2
+depressed	LITERAL2
+maxPresses	LITERAL2
+debounceTime	LITERAL2
+multiclickTime	LITERAL2
+longClickTime	LITERAL2
+
+#HBWired
+HBWSoftwareSerial	LITERAL2
+HBWAnalogIn	LITERAL2
+HBWBlind	LITERAL2
+HBWDimmerAdvanced	LITERAL2
+HBWKey	LITERAL2
+HBWSenSC	LITERAL2
+HBWSwitch	LITERAL2
+HBWSwitchAdvanced	LITERAL2
+HBWLinkBlindSimple	LITERAL2
+HBWLinkDimmerAdvanced	LITERAL2
+HBWLinkKey	LITERAL2
+HBWLinkSwitchAdvanced	LITERAL2
+HBWLinkSwitchSimple	LITERAL2

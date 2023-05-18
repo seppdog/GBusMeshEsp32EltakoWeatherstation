@@ -1,0 +1,4 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "cmake.sourceDirectory": "C:/Users/admin/Documents/github/GBushMeshOut16/.pio/libdeps/esp32dev/mcommon"
+}
